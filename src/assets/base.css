@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+ nav {
+    background-color: white;
+    display: flex;
+    font-size: 1.5em;
+    padding: 15px;
+    font-weight: 600;
+    justify-content: space-around;
+    align-items: center;
+}
+ ul {
+    display: flex;
+}
+ li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+ .paginafilme {
+    display: flex;
+    justify-content: center;
+}
+ .informacoes {
+    width: 48%;
+    padding: 20px;
+}
+ .filmes {
+    margin: 20px;
+}
+ .poster-h4 {
+    margin: 15px 0px;
+}
+ #filmesviewmenor {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+ .filmesview, .seriesview {
+    background-color: white;
+    height: 100vh;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 30px;
+}
+ .paginafilme .poster {
+    height: 50vh;
+    width: 21%;
+}
+ nav a {
+    text-decoration: none;
+    color: black;
+}
+ h3 {
+    border-left: 3px solid #23d5ab;
+    padding-left: 5px;
+    font-size: 1.5em;
+}
+ h4 {
+    font-size: 1.1em;
+    margin-top: 50px;
+}
+ .filmes-section {
+    background-color: white;
+    padding: 25px;
+    height: 224vh;
+    margin-top: 48px;
+    
+}
+ .LandingPage {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 25px;
+    height: 45vh;
+    margin: 0 auto;
+    margin-top: 46px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+ strong {
+    color: #e73c7e;
+}
+ p {
+    font-weight: 500;
+}
+ .tghb-section {
+    border: 2px solid #23d5ab;
+    padding: 14px;
+    border-radius: 20px;
+}
+ .tghb-section img {
+    border-radius: 20px;
+}
+ input, select {
+    border: 2px #ee7752 solid;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+ input:hover {
+    border: 2px #23d5ab solid;
+}
+ input:active {
+    border: 2px #e73c7e solid;
+}
+ nav a:hover {
+    color: #23d5ab;
+    transition: 0.5s all;
+}
+ .filmes-link:hover {
+    color: #e73c7e;
+}
+ .series-link:hover {
+    color: #23a6d5;
+}
+ @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
